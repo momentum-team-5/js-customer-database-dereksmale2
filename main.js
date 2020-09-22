@@ -11,7 +11,6 @@ for (let customer of customers) {
     <div class="container">
     <img src=${customer.picture.large}>
     <h3>${customer.name.first} ${customer.name.last}</h3>
-    <hr>
     <p class="email">${customer.email}</p>
     <p class="street">${customer.location.street}</p>
     <p class="address">${customer.location.city} ${customer.location.state} ${customer.location.postcode}</p>
